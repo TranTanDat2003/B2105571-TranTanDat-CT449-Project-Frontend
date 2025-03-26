@@ -1,0 +1,9 @@
+.custom-toast-success {
+    background-color: #52c41a !important;
+    color: white !important;
+}
+
+.custom-toast-error {
+    background-color: #ff4d4f !important;
+    color: white !important;
+}

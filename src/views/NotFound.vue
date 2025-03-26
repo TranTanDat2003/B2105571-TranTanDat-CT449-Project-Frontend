@@ -2,7 +2,7 @@
     <div class="not-found-page d-flex align-items-center justify-content-center min-vh-100">
         <div class="container text-center">
             <!-- Tiêu đề 404 với hiệu ứng -->
-            <h1 class="display-1 fw-bold text-primary animate__animated animate__bounceInDown">
+            <h1 class="display-1 fw-bold text-success animate__animated animate__bounceInDown">
                 404
             </h1>
             <h2 class="mb-4 text-secondary animate__animated animate__fadeIn animate__delay-1s">
@@ -13,7 +13,7 @@
             </p>
 
             <!-- Nút quay lại trang chủ -->
-            <router-link to="/" class="btn btn-primary btn-lg animate__animated animate__pulse animate__delay-4s">
+            <router-link to="/" class="btn btn-success btn-lg animate__animated animate__pulse animate__delay-4s">
                 <i class="fas fa-home me-2"></i> Quay lại Trang chủ
             </router-link>
 
@@ -43,7 +43,7 @@ export default {
 <style scoped>
 /* Gradient nền */
 .not-found-page {
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3e2ce 100%);
     position: relative;
     overflow: hidden;
 }
@@ -175,7 +175,8 @@ h2 {
     font-size: 1.25rem;
 }
 
-.btn-primary {
+.btn-success {
+    background-color: #28a745;
     padding: 0.75rem 2rem;
     font-size: 1.1rem;
     border-radius: 50px;
